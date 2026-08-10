@@ -1,0 +1,16 @@
+number_list = list(map(int, input().split()))
+big_number = max(number_list)
+small_number = min(number_list)
+remainder = 1
+second_remainder = 0
+while remainder > 0:
+    if small_number > big_number:
+        remainder = small_number % big_number
+        small_number = remainder
+        second_remainder = big_number
+    elif big_number > small_number:
+        remainder = big_number % small_number
+        big_number = remainder
+        second_remainder = small_number
+
+print(f"최소공약수는: {second_remainder}")
