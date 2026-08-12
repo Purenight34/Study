@@ -5,7 +5,7 @@
 | 이름  | GitHub / 연락 ID                             |
 | --- | ------------------------------------------ |
 | 박은하 | [@Purenight34](https://github.com/Purenight34) |
-| 고근우 | [@github-id](https://github.com/github-id) |
+| 고근우 | [@gkw314](https://github.com/gkw314) |
 | 권은준 | [@github-id](https://github.com/github-id) |
 | 방호영 | [@github-id](https://github.com/github-id) |
 | 권다빈 | [@github-id](https://github.com/github-id) |
