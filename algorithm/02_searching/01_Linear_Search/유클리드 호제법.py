@@ -24,28 +24,29 @@
 
 
 
-
-
+"""
+요구사항
+최대공약수를 gcd 해주세요.
+직접 비교하기 귀찮으면 코드 짜라고 한 곳만 건드리기.
+직접 비교할거면 다지우고 해도 됨
+유클리드 호제법.py 파일이 보이는 곳에서 vs code 켜기
+"""
 import sys
 
 #실행코드
 # 표준 입력을 키보드가 아닌 'data.txt' 파일로 변경
-sys.stdin = open("test01.txt", "r")
+for i in range(4):
+    sys.stdin = open(f"tests/input{i+1}.txt", "r")
+    ##### 코드 짜기
 
-# 기존 코드 그대로 사용 가능
-number_list = list(map(int, input().split()))
-big_number = max(number_list)
-small_number = min(number_list)
-remainder = 1
-second_remainder = 0
-while remainder > 0:
-    if small_number > big_number:
-        remainder = small_number % big_number
-        small_number = remainder
-        second_remainder = big_number
-    elif big_number > small_number:
-        remainder = big_number % small_number
-        big_number = remainder
-        second_remainder = small_number
+    
+    ##########
+    print(f"최대공약수는: {gcd}")
+    sys.stdin = open(f"tests/output{i+1}.txt", "r")
+    output_list = list(map(int, input().split()))
+    if gcd == output_list[0]:
+        print("정답")
+    else:
+        print("뭔가가 잘못된듯")
 
-print(f"최소공약수는: {second_remainder}")
+
