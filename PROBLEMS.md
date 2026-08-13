@@ -14,3 +14,13 @@
 | 02 | Searching | Linear Search  | 방호영 | 🚧 진행 중 |[선형 탐색](./algorithm/02_searching/01_Linear_Search/)
 | 03 | Math| Euclidean Algorithm  | 권은준 | 🚧 진행 중 |[유클리드 호제법](링크)
 | 04 | Recursion  | Factorial | 박은하 | ⏳ 예정    |[팩토리얼(재귀)](./algorithm/04_recursion/)
+| 05 | Sorting  | Insertion Sort |  | ⏳ 예정    |
+| 06 | Sorting  | Selection Sort |  | ⏳ 예정    |
+| 07 | Searching   | Binary Search  |  | ⏳ 예정   |[문서 제목 예시](문제 링크)
+| 08 | Data Structure   | Stack |  | ⏳ 예정   |[문서 제목 예시](문제 링크)
+| 09 | Data Structure   | Queue |  | ⏳ 예정   |[문서 제목 예시](문제 링크)
+| 10 | Sorting   | Merge Sort  |  | 📌 예시   | <-- 여기부터 본격적이니까 내가 예시 보여주기
+| 11 | Graph   | DFS  |  | ⏳ 예정   |[문서 제목 예시](문제 링크)
+| 12 | Graph   | BFS  |  | ⏳ 예정   |[문서 제목 예시](문제 링크)
+
+| 00 | Example   | 문제 예제 작성  |  | ⏳ 예정   |[문서 제목 예시](문제 링크)
