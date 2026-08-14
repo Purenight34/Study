@@ -8,5 +8,5 @@
 | 고근우 | [@gkw314](https://github.com/gkw314) |
 | 권은준 | [@github-id](https://github.com/github-id) |
 | 방호영 | [@github-id](https://github.com/github-id) |
-| 권다빈 | [@github-id](https://github.com/github-id) |
+| 권다빈 | [@github-id](https://github.com/dabinkwon) |
 | 박예담 | [@github-id](https://github.com/github-id) |
