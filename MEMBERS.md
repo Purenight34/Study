@@ -9,4 +9,4 @@
 | 권은준 | [@github-id](https://github.com/github-id) |
 | 방호영 | [@github-id](https://github.com/github-id) |
 | 권다빈 | [@github-id](https://github.com/github-id) |
-| 박예담 | [@github-id](https://github.com/github-id) |
+| 박예담 | [@damiii85](https://github.com/damiii85) |
