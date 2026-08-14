@@ -17,7 +17,7 @@
 | 05 | Sorting    | Insertion Sort |  | ⏳ 예정    |
 | 06 | Sorting    | Selection Sort |  | ⏳ 예정    |
 | 07 | Searching  | Binary Search  |  | ⏳ 예정   |[문서 제목 예시](문제 링크)
-| 08 | Searching   | Backtracking  | 박은하 | ⏳ 예정    |[백트래킹(재귀)]()
+| 08 | Searching   | Backtracking  | 박은하 | ⏳ 예정    |[백트래킹]()
 
 | 09 | Data Structure   | Stack |  | ⏳ 예정   |[문서 제목 예시](문제 링크)
 | 10 | Data Structure   | Queue |  | ⏳ 예정   |[문서 제목 예시](문제 링크)
