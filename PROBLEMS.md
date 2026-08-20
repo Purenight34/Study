@@ -16,7 +16,7 @@
 | 04 | Recursion  | Factorial      | 박은하 | ✅ 완료    |[팩토리얼(재귀)](./algorithm/04_recursion/)
 | 05 | Sorting    | Insertion Sort | 박예담 | ⏳ 예정    | (~~ 상황에서는 A 정렬이 더 좋다. 왜?)
 | 06 | Sorting    | Selection Sort | 권은준 |  ✅ 완료   |[선택 정렬](./algorithm/01_sorting/03_selection_sort/)
-| 07 | Searching  | Binary Search  | 방호영 | ⏳ 예정   |[문서 제목 예시](문제 링크) (~~ 상황에서는 A 검색이 더 좋다. 왜?)
+| 07 | Searching  | Binary Search  | 방호영 | ⏳ 예정   |[이진 탐색](./algorithm/02_searching/02_Binary_Search/)
 | 08 | Searching   | Backtracking  | 박은하 | ✅ 완료   |[백트래킹](./algorithm/02_searching/03_Back_Tracking/)
 | 09 | Data Structure   | Stack | 권다빈 | ⏳ 예정   |[문서 제목 예시](문제 링크) 스택 기본 기능이 5개 있어. 
 | 10 | Data Structure   | Queue | 권은준 | ⏳ 예정   |[문서 제목 예시](문제 링크) 
