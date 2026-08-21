@@ -7,6 +7,7 @@
 | 박은하 | [@Purenight34](https://github.com/Purenight34) |
 | 고근우 | [@gkw314](https://github.com/gkw314) |
 | 권은준 | [@bulgomi26](https://github.com/bulgomi26) |
-| 방호영 | [@github-id](https://github.com/bhy13579) |
-| 권다빈 | [@github-id](https://github.com/dabinkwon) |
-| 박예담 | [@github-id](https://github.com/github-id) |
+| 방호영 | [@bhy13579](https://github.com/bhy13579) |
+| 권다빈 | [@dabinkwon](https://github.com/dabinkwon) |
+| 박예담 | [@damiii85](https://github.com/damiii85) |
+
