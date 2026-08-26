@@ -20,7 +20,7 @@
 | 08 | Searching  | Backtracking  | 박은하 | ✅ 완료   |[백트래킹](./algorithm/02_searching/03_Back_Tracking/)
 | 09 | Data Structure   | Dynamic Array   | 박은하 | ✅ 완료   |[동적 배열(파이썬 리스트)](./algorithm/05_data_structure/01_Dynamic_Array/)
 | 10 | Data Structure   | Stack | 권다빈 | ⏳ 예정   |[문서 제목 예시](문제 링크) 스택 기본 기능이 5개 있어. 
-| 11 | Data Structure   | Queue | 권은준 | ⏳ 예정   |[문서 제목 예시](문제 링크) 
+| 11 | Data Structure   | Queue | 권은준 | ✅ 완료   |[Queue](./algorithm/05_data_structure/03_Queue/) 
 | 12 | Sorting    | Merge Sort  | 고근우 | 📌 예시   | <-- 왜 이 sort가 위에 3개보다 빠른지. 기존 sort O(N^2), 얘는 O(N logN) 설명하는 김에 시간복잡도 + 공간복잡도
 | 13 | Math    | Time/Space Complexity  | 고근우 | 📌 예시   | 간단 개념만
 | 14 | Graph   | DFS  | 박예담 | ⏳ 예정   |[문서 제목 예시](문제 링크) > A형 단골
