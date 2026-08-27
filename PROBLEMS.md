@@ -16,11 +16,11 @@
 | 04   | Recursion           | Factorial             | 박은하 | ✅ 완료 | [팩토리얼(재귀)](./algorithm/04_recursion/)                                 |
 | 05   | Sorting             | Insertion Sort        | 박예담 | ✅ 완료 | [삽입 정렬](./algorithm/01_sorting/02_insertion_sort/)                      |
 | 06   | Sorting             | Selection Sort        | 권은준 | ✅ 완료 | [선택 정렬](./algorithm/01_sorting/03_selection_sort/)                      |
-| 07   | Searching           | Binary Search         | 방호영 | ⏳ 예정 | [이진 탐색](./algorithm/02_searching/02_Binary_Search/)                     |
+| 07   | Searching           | Binary Search         | 방호영 | ✅ 완료 | [이진 탐색](./algorithm/02_searching/02_Binary_Search/)                     |
 | 08   | Searching           | Backtracking          | 박은하 | ✅ 완료 | [백트래킹](./algorithm/02_searching/03_Back_Tracking/)                      |
 | 09   | Data Structure      | Dynamic Array         | 박은하 | ✅ 완료 | [동적 배열(파이썬 리스트)](./algorithm/05_data_structure/01_Dynamic_Array/) |
 | 10   | Data Structure      | Stack                 | 권다빈 | ⏳ 예정 | [문서 제목 예시](문제 링크) 스택 기본 기능이 5개 있어.                      |
-| 11   | Data Structure      | Queue                 | 권은준 | ⏳ 예정 | [문서 제목 예시](문제 링크)                                                 |
+| 11   | Data Structure      | Queue                 | 권은준 | ✅ 완료 | [Queue](./algorithm/05_data_structure/03_Queue/)                                                 |
 | 12   | Sorting             | Merge Sort            | 고근우 | ✅ 완료 | [병합 정렬](./algorithm/01_sorting/04_merge_sort/)                          |
 | 13   | Math                | Time/Space Complexity | 고근우 | ✅ 완료 | [시간, 공간복잡도](./algorithm/03_math/02_time_space_complexity/)           |
 | 14   | Graph               | DFS                   | 박예담 | ⏳ 예정 | [문서 제목 예시](문제 링크) > A형 단골                                      |
