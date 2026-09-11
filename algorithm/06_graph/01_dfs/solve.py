@@ -1,53 +1,52 @@
-"""스택을 이용한 DFS로 시작점에서 도착점까지 이동 가능한지 판단한다.
+"""의사코드에 따라 스택으로 탐색하고 도착점의 방문 여부를 판단한다.
 
 풀이
 1. 단방향 통로를 인접 리스트에 저장한다.
-2. 시작점을 스택에 넣고 visited에 방문 표시를 한다.
-3. 스택에서 정점을 꺼내고, 미방문 이웃을 넣으면서 즉시 방문 표시한다.
-   순환이 있어도 같은 정점은 스택에 한 번만 들어간다.
-4. 탐색이 끝나면 도착점의 방문 여부로 '가능' 또는 '불가능'을 출력한다.
+2. visited를 미방문(0)으로 준비하고, 시작점을 스택에 넣고 방문(1) 표시한다.
+3. 스택이 빌 때까지 현재 정점을 하나씩 꺼낸다.
+4. 현재 정점의 이웃을 하나씩 확인하고, 미방문이면 스택에 넣고 방문 표시한다.
+5. 모든 탐색이 끝난 뒤 visited[도착점]이 1이면 '가능', 0이면 '불가능'이다.
 
 입력: T, 각 케이스의 N M, 간선 M개, 시작점 S와 도착점 E.
 케이스마다 그래프와 visited를 새로 만든다.
 시간 복잡도는 O(N + M), 그래프를 포함한 공간 복잡도는 O(N + M)이다.
 """
 
-import sys
-
-
 def dfs(graph, start):
-    visited = [False] * len(graph)
-    stack = [start]
-    visited[start] = True
+    visited = [0] * len(graph)
+
+    # 빈 스택에 시작 정점을 넣고 방문(1)으로 표시한다.
+    stack = []
+    stack.append(start)
+    visited[start] = 1
 
     while stack:
         current = stack.pop()
 
+        # 현재 위치에 연결된 다음 위치들을 하나씩 확인한다.
         for next_vertex in graph[current]:
-            if not visited[next_vertex]:
+            if visited[next_vertex] == 0:
                 stack.append(next_vertex)
-                # 넣을 때 표시해야 다른 경로에서 같은 정점을 또 넣지 않는다.
-                visited[next_vertex] = True
-
+                visited[next_vertex] = 1 # 방문 표시
     return visited
 
 
 def main():
     test_case = int(input())
 
-    for tc in range(test_case):
+    for _ in range(test_case):
         n, m = map(int, input().split())
         graph = [[] for _ in range(n + 1)]
 
-        for i in range(m):
-            A, B = map(int, input().split()) 
-            graph[A].append(B) #A에서 B로 향하는 경로
+        for _ in range(m):
+            u, v = map(int, input().split())
+            graph[u].append(v)  # u에서 v로 향하는 단방향 통로
 
         start, end = map(int, input().split())
         visited = dfs(graph, start)
 
         # 시작점도 방문 표시했으므로 start == end이면 항상 '가능'이다.
-        print("가능" if visited[end] else "불가능")
+        print("가능" if visited[end] == 1 else "불가능")
 
 
 if __name__ == "__main__":
