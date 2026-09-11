@@ -23,11 +23,11 @@
 | 07 | Searching           | Binary Search         | 방호영 | ✅ 완료  | [이진 탐색](./algorithm/02_searching/02_Binary_Search/)               |       |
 | 08 | Searching           | Backtracking          | 박은하 | ✅ 완료  | [백트래킹](./algorithm/02_searching/03_Back_Tracking/)                |       |
 | 09 | Data Structure      | Dynamic Array         | 박은하 | ✅ 완료  | [동적 배열(파이썬 리스트)](./algorithm/05_data_structure/01_Dynamic_Array/) |       |
-| 10 | Data Structure      | Stack                 | 권다빈 | ⏳ 예정  | [문서 제목 예시](문제 링크) 스택 기본 기능이 5개 있어.                                |       |
+| 10 | Data Structure      | Stack                 | 권다빈 | ✅ 완료  | [Stack](./algorithm/05_data_structure/02_Stack/) 스택 기본 기능이 5개 있어.                                |       |
 | 11 | Data Structure      | Queue                 | 권은준 | ✅ 완료  | [Queue](./algorithm/05_data_structure/03_Queue/)                  |       |
 | 12 | Sorting             | Merge Sort            | 고근우 | ✅ 완료  | [병합 정렬](./algorithm/01_sorting/04_merge_sort/)                    |       |
 | 13 | Math                | Time/Space Complexity | 고근우 | ✅ 완료  | [시간, 공간복잡도](./algorithm/03_math/02_time_space_complexity/)        |       |
-| 14 | Graph               | DFS                   | 박예담 | ⏳ 예정  | [문서 제목 예시](문제 링크)                                                 | A형 단골 |
+| 14 | Graph               | DFS                   | 박은하 | ✅ 완료  | [DFS](./algorithm/06_graph/01_dfs/)                                                 | A형 단골 |
 | 15 | Graph               | BFS                   | 방호영 | ⏳ 예정  | [문서 제목 예시](문제 링크)                                                 | A형 단골 |
 | 16 | Data Structure      | Linked List           |     | ⏳ 예정  | 배열과 Linked List의 삽입/삭제 차이는?                                       |       |
 | 17 | Data Structure      | Hash Table            |     | ⏳ 예정  | Hash 탐색이 평균 O(1)인 이유는? Collision은?                                |       |

@@ -1,2 +1,5 @@
 .vscode
 Queue(권은준).py
+
+# 스터디 담당자용 BFS 정답 코드는 로컬에서만 사용한다.
+/algorithm/06_graph/02_bfs/02_bfs.py
