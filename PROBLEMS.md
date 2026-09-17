@@ -28,7 +28,7 @@
 | 12 | Sorting             | Merge Sort            | 고근우 | ✅ 완료  | [병합 정렬](./algorithm/01_sorting/04_merge_sort/)                    |       |
 | 13 | Math                | Time/Space Complexity | 고근우 | ✅ 완료  | [시간, 공간복잡도](./algorithm/03_math/02_time_space_complexity/)        |       |
 | 14 | Graph               | DFS                   | 박은하 | ✅ 완료  | [DFS](./algorithm/06_graph/01_dfs/)                                                 | A형 단골 |
-| 15 | Graph               | BFS                   | 방호영 | ⏳ 예정  | [문서 제목 예시](문제 링크)                                                 | A형 단골 |
+| 15 | Graph               | BFS                   | 권은준 | ✅ 완료  | [BFS](./algorithm/06_graph/02_BFS/)                                                 | A형 단골 |
 | 16 | Data Structure      | Linked List           |     | ⏳ 예정  | 배열과 Linked List의 삽입/삭제 차이는?                                       |       |
 | 17 | Data Structure      | Hash Table            |     | ⏳ 예정  | Hash 탐색이 평균 O(1)인 이유는? Collision은?                                |       |
 | 18 | Data Structure      | Heap                  |     | ⏳ 예정  | Min Heap / Max Heap의 구조와 삽입/삭제 과정을 구현한다.                          |       |
