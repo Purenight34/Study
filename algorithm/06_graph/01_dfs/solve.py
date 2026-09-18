@@ -20,13 +20,13 @@ def dfs(graph, start):
     stack.append(start)
     visited[start] = 1
 
-    while stack:
-        current = stack.pop()
+    while stack: # stack -> 내가 방문할 목록들이 있으면
+        current = stack.pop() # 가장 위에 방문한거 
 
         # 현재 위치에 연결된 다음 위치들을 하나씩 확인한다.
-        for next_vertex in graph[current]:
-            if visited[next_vertex] == 0:
-                stack.append(next_vertex)
+        for next_vertex in graph[current]: #current에서 갈 수 있는 다른 칸들
+            if visited[next_vertex] == 0: #안들렀으면
+                stack.append(next_vertex) #방문 목록에 넣어놓고
                 visited[next_vertex] = 1 # 방문 표시
     return visited
 
